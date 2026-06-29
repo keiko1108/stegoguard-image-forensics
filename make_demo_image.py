@@ -10,7 +10,7 @@ Path("images").mkdir(exist_ok=True)
 
 # Small valid 16x16 PNG image.
 png_data = base64.b64decode(
-    "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/p9sAAAAASUVORK5CYII="
+    "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAHklEQVQ4jWNgYGD4z8BQDwAAAP//AwAI/AL+hc2rNAAAAABJRU5ErkJggg=="
 )
 
 if mode == "suspicious":
